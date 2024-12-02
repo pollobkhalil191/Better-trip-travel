@@ -1,15 +1,24 @@
+import HeroSection from '@/app/components/Homepage/Hero'
 import React from 'react'
-import DestinationSection from './Destination'
-import HeroSection from './Hero'
+
+import TopDestinations from '../../../components/Homepage/TopDestinations'
+import TourCard from '../../../components/Tour/TourCard'
+
+
+
 
 const Homepage = () => {
   return (
     <div>
+       <HeroSection/>
 
-        <HeroSection/>
+       <TopDestinations/>
 
-    <DestinationSection/>
-
+        <div className='py-10'>
+            <TourCard/>
+        </div>
+       
+     
     </div>
   )
 }
