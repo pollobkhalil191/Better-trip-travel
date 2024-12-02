@@ -1,8 +1,11 @@
+import TourCard from '@/components/Tour/TourCard'
 import React from 'react'
 
 const tours = () => {
   return (
-    <div>tours</div>
+    <div>
+      <TourCard/>
+    </div>
   )
 }
 

@@ -67,7 +67,7 @@ export default function Navbar() {
               About
             </span>
           </Link>
-          <Link href="#tour">
+          <Link href="tours">
             <span className="relative text-gray-700 hover:text-blue-500 transition">
               Tour
             </span>
