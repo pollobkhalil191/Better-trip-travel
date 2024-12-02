@@ -67,11 +67,17 @@ export default function Navbar() {
               About
             </span>
           </Link>
-          <Link href="#services">
+          <Link href="#tour">
             <span className="relative text-gray-700 hover:text-blue-500 transition">
-              Services
+              Tour
             </span>
           </Link>
+          <Link href="#blog">
+            <span className="relative text-gray-700 hover:text-blue-500 transition">
+              Blog
+            </span>
+          </Link>
+          
           <Link href="#contact">
             <span className="relative text-gray-700 hover:text-blue-500 transition">
               Contact
@@ -81,11 +87,7 @@ export default function Navbar() {
 
         {/* Icon Section */}
         <div className="flex items-center space-x-6">
-          <div className="relative group">
-            <button className="text-xl text-gray-700 hover:text-blue-500">
-              <FaSearch />
-            </button>
-          </div>
+          
           <div className="relative group">
             <button className="text-xl text-gray-700 hover:text-blue-500">
               <FaHeart />

@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        textPrimary: "#1A2B49", // Custom text color variable
       },
     },
   },
